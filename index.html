@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текстовый Квест</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1 id="title">Подземелье Баргера</h1>
+        <div id="scene" class="scene-background">
+            <p id="story-text">Выбор?</p>
+        </div>
+        <div id="image-container"> </div>
+        </div>
+        <div id="options">
+            <button id="option1" onclick="chooseOption(1)">Пойти налево</button>
+            <button id="option2" onclick="chooseOption(2)">Пойти направо</button>
+        </div>
+        <button id="restart" onclick="restartGame()" style="display:none;">Начать заново</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
